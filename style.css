@@ -1,0 +1,43 @@
+body {
+    background: rgb(71, 115, 215);
+    background: linear-gradient(0deg, rgba(71, 115, 215, 1) 24%, rgba(124, 45, 253, 1) 100%);
+    color: white;
+    margin-left: 30px;
+}
+
+a,
+a.text:active,
+a.text:hover,
+a.text {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+
+}
+
+header li a {
+    position: right;
+}
+
+
+.menu {
+    display: flex;
+    float: right;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.greetings {}
